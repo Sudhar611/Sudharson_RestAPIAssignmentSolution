@@ -9,6 +9,6 @@ public class HomeController {
 
 	@GetMapping("/")
 	public String home() {
-		return ("<h1> Assignment 6 </h1>");
+		return ("<h1>Welcome to Employee Management System</h1>");
 	}
 }
